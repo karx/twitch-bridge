@@ -1,10 +1,12 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+var cors = require('cors');
 const app = express();
 
 const { twitchCallWithPage } = require("./twitch_streams");
 
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cors())
 
 app.get("/gamestreams", async (req, response) => {
   const qs = req.query;
