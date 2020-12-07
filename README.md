@@ -16,7 +16,7 @@ We can fetch live streams by Game and filter them based on keywords.
 Example: `/gamestreams?game_id=27471&filter=hardcore,speedrun,1.6`
 
 Fetches all Minecraft Stream with 'hardcore', 'speedrun' or '1.6' in title.
-
+[Try Now](http://tbridge.akriya.co.in/gamestreams?game_id=27471&filter=hardcore,speedrun,1.6)
 
 ## Discussion, Support and Issues
 For general support and discussion of this project, please join the Discord server: [Discord Invite Link](https://discord.gg/B2cERQ5)
